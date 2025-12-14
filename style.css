@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #111827;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #1e3a8a;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background: #e0e7ff;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+/* Projects */
+.project-card {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #1e3a8a;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
